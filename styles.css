@@ -1,27 +1,21 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    font-family: Arial, sans-serif;
+* { 
+    margin: 5px;
 }
 
+
 #titleText { 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
 #tally-container {
-    width: 100px;
-    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: lightgray;
     text-align: center;
     cursor: pointer;
 }
 
-button {
-    margin: 10px;
-}
 
 @media (max-width: 768px) {
     #tally-container {
