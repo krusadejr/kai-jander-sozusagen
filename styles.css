@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#titleText { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#tally-container {
+    width: 100px;
+    height: 200px;
+    background-color: lightgray;
+    text-align: center;
+    cursor: pointer;
+}
+
+button {
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    #tally-container {
+        width: 80px;
+        height: 160px;
+        font-size: 24px;
+    }
+    button {
+        font-size: 16px;
+    }
+}
