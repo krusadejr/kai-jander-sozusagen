@@ -1,2 +1,2 @@
-Simple website to showvase the partner agencies. 
+Simple website to showcase the partner agencies. 
 Made for the module "Implementierung der Prozesse"
